@@ -1,1 +1,77 @@
-<h1>Hola Mundo...</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Luis Roberto Surec Morales</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Hola 👋</h2>
+        <p>Soy Técnico en computación, un apasionado del desarrollo de software.</p>
+        <p><b>Tech Lead | Fullstack Developer | Freelance</b></p>
+        <p>Especializado en SQL Server, .NET Core C#, Flutter, y Angular.</p>
+        <img src="Assets/avatar.png" alt="Foto" class="foto-perfil">
+    </section>
+    
+    <section id="sobre-mi" class="about_me">
+        <h2>Sobre Mí</h2>
+        <p>🌟 <b>Experiencia:</b> Como Tech Lead, me enorgullezco de liderar proyectos de alto impacto, garantizar el logro de objetivos y mantener estándares de desarrollo de software de primer nivel.</p>
+        <p>🚀 <b>Pasión por la innovación:</b> Siempre estoy a la búsqueda de nuevas oportunidades para aplicar tecnologías emergentes y mejores prácticas en mis proyectos personales.</p>
+        <p>🤝 <b>Colaboración y liderazgo:</b> Creo en el poder de un equipo fuerte y colaborativo. Mi estilo de liderazgo gira en torno al fomento de un entorno de trabajo positivo en el que cada miembro del equipo pueda aprovechar sus puntos fuertes y crecer profesionalmente.</p>
+        <p>Me entusiasma seguir creciendo en el campo del desarrollo de software y siempre estoy abierto a asumir nuevos retos. No dudes en ponerte en contacto conmigo y colaborar en iniciativas apasionantes.</p>
+    </section>
+    
+    <section id="proyectos" class="seccion oculto">
+        <h2>Proyectos</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <p>Impresión Silenciosa C#</p>
+                <a href="https://github.com/B3rert/PrintPDF" target="_blank" class="btn">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <p>POS Angular</p>
+                <a href="https://github.com/B3rert/ng-pos" target="_blank" class="btn">Ver Proyecto</a>
+            </div>
+            <div class="proyecto">
+                <p>Impresión ESC/POS con BLOC en Flutter</p>
+                <a href="https://github.com/B3rert/fl-print-bloc" target="_blank" class="btn">Ver Proyecto</a>
+            </div>
+        </div>
+        <a href="https://github.com/B3rert?tab=repositories" target="_blank" class="btn-github">Ver más en GitHub</a>
+    </section>
+    
+    <section id="contacto" class="seccion oculto">
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <input type="text" placeholder="Tu Nombre" required>
+            <input type="email" placeholder="Tu Correo" required>
+            <textarea placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/b3rert" target="_blank" class="btn">LinkedIn</a>
+            <a href="https://github.com/B3rert" target="_blank" class="btn">GitHub</a>
+        </div>
+    </section> 
+    <footer>
+        <p>&copy; 2025 B3RERT. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
