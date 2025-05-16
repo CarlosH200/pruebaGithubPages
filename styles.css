@@ -10,10 +10,15 @@ body {
 
 /* Encabezado */
 header {
-    background: #010a82;
+    background: #000000 url('assets/VetCareFondo2.png') repeat;
+    background-size: 800px; /* o usa un porcentaje, por ejemplo: 20% */
+    background-position: center;
     color: white;
     padding: 15px 0;
+    font-size: 20px;
 }
+
+
 
 nav ul {
     list-style: none;
