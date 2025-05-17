@@ -1,127 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VetCare</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
-
 <body>
-    <header>
-        <h1>VetCare</h1>
-        <!-- <h3>Bienvenido a mi blog personal.</h3> -->
-        <nav>
-            <ul class="BotonesNav">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#Multimedia">Multimedia</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="inicio">
-        <h2>"Tu mascota en las mejores manos"</h2>
-        <p>Clínica veterinaria de confianza, dedicada al cuidado
-            integral y profesional de tus mascotas.</p>
-        <!-- <p><b>Especialista en Soporte de Sistemas CMR y Técnico en TI | DBA Junior | Freelance | Desarrollador
-                Junior</b></p> -->
-        <!-- <p>Especializado en SQL Server, .NET Core, Sistemas CMR, Flutter, y Angular.</p> -->
-        <img src="assets/VetCareLogo.png" alt="Foto" class="foto-perfil">
-    </section>
+  <!-- Banner de urgencia -->
+  <div class="urgent-banner">
+    <i class="fas fa-phone-alt"></i> Emergencias veterinarias Atencion 24/7 : +502 7840-1234 y 7840-8899
+  </div>
 
-    <section id="sobre-mi" class="about_me">
-        <h2>Sobre Mí</h2>
-        <p>🌟 <b>Experiencia:</b> Trabajo en soporte de sistemas CMR y soporte técnico, ayudando a resolver problemas y
-            mantener todo en marcha. También me desempeño como DBA ., cuidando bases de datos, y como programador .,
-            creando y mejorando aplicaciones. Me gusta aprender y buscar nuevas formas de optimizar procesos
-            tecnológicos.</p>
-        <p>🚀 <b>Pasión por la innovación:</b> Me encanta resolver problemas y optimizar sistemas, ya sea brindando
-            soporte técnico, gestionando bases de datos o desarrollando aplicaciones. Siempre estoy en busca de nuevas
-            oportunidades para aplicar tecnologías emergentes y mejores prácticas en mis proyectos.</p>
-        <p>🤝 <b>Colaboración y liderazgo:</b> Creo en el valor de un equipo fuerte y en la importancia de un entorno de
-            trabajo positivo. En mi experiencia en soporte técnico, administración de bases de datos y desarrollo de
-            software, siempre busco formas de optimizar procesos, compartir conocimientos y fomentar el crecimiento
-            profesional de quienes me rodean.</p>
-        <p>Me entusiasma seguir creciendo en el mundo de la tecnología, ya sea en soporte de sistemas, administración de
-            bases de datos o desarrollo de software. Siempre busco nuevos retos y oportunidades para aprender y mejorar.
-        </p>
-    </section>
+  <!-- Encabezado con logo y navegación -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/VetCareLogo.png" alt="VetCare Logo" class="logo-img" />
+        <span class="tituloVetCare" >VetCare</span>
+      </div>
+      <div class="menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
 
-    <section id="Multimedia" class="seccion oculto">
-        <h2>Multimedia</h2>
-        <div class="galeria">
-            <div class="proyecto">
-                <p>Curso de SQL desde 0</p>
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/ehYAsxVuaOg?si=oREPy5fbYm-I74-o"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="proyecto">
-                <p>Angular desde 0</p>
-                <iframe width="300" height="150"
-                    src="https://www.youtube.com/embed/f7unUpshmpA?si=ibuDnqcWwB6Lh0vU&amp;start=1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="proyecto">
-                <p>Phyton desde 0</p>
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/nKPbfIU442g?si=nk2iGYXYpX4vxlkO"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="proyecto">
-                <p>Curso de SQL desde 0</p>
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/ehYAsxVuaOg?si=oREPy5fbYm-I74-o"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="proyecto">
-                <p>Angular desde 0</p>
-                <iframe width="300" height="150"
-                    src="https://www.youtube.com/embed/f7unUpshmpA?si=ibuDnqcWwB6Lh0vU&amp;start=1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="proyecto">
-                <p>Phyton desde 0</p>
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/nKPbfIU442g?si=nk2iGYXYpX4vxlkO"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <a href="https://github.com/CarlosH200?tab=repositories" target="_blank" class="btn-github">Ver más en
-            GitHub</a>
-    </section>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Tu mascota en las mejores manos</h1>
+    <p>En VetCare cuidamos de la salud y bienestar de tu compañero fiel con profesionalidad, cariño y tecnología avanzada.</p>
+  </section>
 
-    <section id="contacto" class="seccion oculto">
-        <h2>Contacto</h2>
-        <form id="form-contacto">
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit">Enviar Datos</button>
-        </form>
-        <div class="redes-sociales">
-            <a href="https://www.linkedin.com/in/carlos-hugo-pinz%C3%B3n-higueros-b48153226/" target="_blank"
-                class="btn">LinkedIn</a>
-            <a href="https://github.com/CarlosH200" target="_blank" class="btn">GitHub</a>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2025 Carlos Pinzon. Todos los derechos reservados.</p>
-    </footer>
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <p>Ofrecemos atención integral para el cuidado y bienestar de tu mascota</p>
+    <div class="grid">
+      <div class="card"><strong>Medicina General</strong><br>Atención preventiva y diagnóstico temprano.</div>
+      <div class="card"><strong>Urgencias 24/7</strong><br>Emergencias atendidas todo el día.</div>
+      <div class="card"><strong>Cirugía Avanzada</strong><br>Tecnología moderna y personal capacitado.</div>
+      <div class="card"><strong>Odontología</strong><br>Cuidados y limpieza dental.</div>
+      <div class="card"><strong>Diagnóstico por Imagen</strong><br>Radiografías, ecografías, y más.</div>
+      <div class="card"><strong>Peluquería y Estética</strong><br>Baño, corte y belleza.</div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Sobre nosotros -->
+  <section id="nosotros">
+    <h2>Sobre VetCare</h2>
+    <p>+15 años de experiencia, ambiente cálido, tecnología avanzada y atención personalizada. Nuestra misión: ofrecer atención integral y de calidad para una experiencia positiva para mascota y dueño.</p>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo">
+    <h2>Nuestro Equipo</h2>
+    <div class="grid">
+      <div class="card">Dra. Laura Martínez<br><small>Cirugía y medicina interna (+15 años)</small></div>
+      <div class="card">Dr. Carlos Ruiz<br><small>Radiología y diagnóstico por imagen</small></div>
+      <div class="card">Dra. Ana Gómez<br><small>Emergencias y cuidados intensivos</small></div>
+      <div class="card">Miguel Sánchez<br><small>Peluquero Canino - Estética animal</small></div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <h2>Lo Que Dicen Nuestros Clientes</h2>
+    <div class="grid">
+      <div class="card\">“Desde que llevamos a Max a VetCare, su salud ha mejorado. Equipo profesional.”<br><small>– María Rodríguez</small></div>
+      <div class="card\">“Cirugía complicada con Dr. Ruiz, todo perfecto. Seguimiento post-operatorio excelente.”<br><small>– Pedro García</small></div>
+      <div class="card\">“Atención a tres perros. Calidad y puntualidad inmejorable.”<br><small>– Sofía Martín</small></div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria">
+    <h2>Nuestras Instalaciones</h2>
+    <div class="grid">
+      <div class="card\">Sala de consulta</div>
+      <div class="card\">Quirófano</div>
+      <div class="card\">Sala de espera</div>
+      <div class="card\">Laboratorio</div>
+      <div class="card\">Peluquería canina</div>
+      <div class="card\">Área de recuperación</div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto y Reserva</h2>
+    <div class="grid">
+      <div class="card\">Dirección: Av. Principal 123, 28001 Madrid</div>
+      <div class="card\">Teléfono: +34 914 567 890<br>Urgencias: +34 900 123 456</div>
+      <div class="card\">Horario:<br>L-V: 9:00 - 20:00<br>Sáb: 10:00 - 15:00<br>24/7 Emergencias</div>
+    </div>
+    <form id="reserva-form">
+      <input type="text" placeholder="Nombre completo" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <input type="tel" placeholder="Teléfono" required />
+      <select required>\n
+        <option disabled selected>Tipo de mascota</option>\n
+        <option>Perro</option>\n
+        <option>Gato</option>\n
+        <option>Ave</option>\n
+        <option>Exótico</option>\n
+        <option>Otro</option>\n
+      </select>
+      <select required>\n
+        <option disabled selected>Servicio requerido</option>\n
+        <option>Consulta general</option>\n
+        <option>Vacunación</option>\n
+        <option>Cirugía</option>\n
+        <option>Odontología</option>\n
+        <option>Peluquería</option>\n
+        <option>Otro</option>\n
+      </select>
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
 </body>
-
 </html>
